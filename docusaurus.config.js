@@ -4,19 +4,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'APP_NAME',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'How we can help you today?',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'kaustubhk24', // Usually your GitHub org/user name.
+  projectName: 'inventory-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'APP_NAME',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'APP_NAME',
         src: 'img/logo.svg',
       },
       items: [
@@ -24,7 +24,7 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -41,7 +41,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],
@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} APP_NAME, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -98,7 +98,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/kaustubhk24/inventory-docs/edit/master/blog/',
+            'https://github.com/kaustubhk24/inventory-docs/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
