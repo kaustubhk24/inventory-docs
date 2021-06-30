@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'APP_NAME',
   tagline: 'How we can help you today?',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://inventory-docs.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
