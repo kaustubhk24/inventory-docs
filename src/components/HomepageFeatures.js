@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Documentation',
+    Svg: require('../../static/img/docs.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Read easy to use <a href="docs/intro">Documentation</a> to solve common errors/problems.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Blog',
+    Svg: require('../../static/img/blog.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        To read new updates/enhancements in our app visit <a href="blog">our blog.</a>
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: 'Status Page',
+    Svg: require('../../static/img/status.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We provide 99.9% uptime, incase you're facing issue in connecting app, Please check <a target="_blank" href="#">Status Page.</a>
       </>
     ),
   },
