@@ -3,9 +3,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'APP_NAME',
+  title: 'Oxybill',
   tagline: 'How we can help you today?',
-  url: 'https://inventory-docs.netlify.app',
+  url: 'https://docs.oxybill.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -14,9 +14,9 @@ module.exports = {
   projectName: 'inventory-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'APP_NAME',
+      title: 'Oxybill',
       logo: {
-        alt: 'APP_NAME',
+        alt: 'Oxybill',
         src: 'img/logo.svg',
       },
       items: [
@@ -77,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} APP_NAME, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Oxybill, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
