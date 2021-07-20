@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 # Creating Your Account
- To use this app you must create an account with us. Making an account is very easy, Just visit [Signup](#) page, give the necessary details and create your account.
+ To use this app you must create an account with us. Making an account is very easy, Just visit [Signup](https://app.oxybill.com/signup) page, give the necessary details and create your account.
 
 ## How to create account?
 
