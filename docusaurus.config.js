@@ -9,7 +9,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'kaustubhk24', // Usually your GitHub org/user name.
   projectName: 'inventory-docs', // Usually your repo name.
   themeConfig: {
@@ -28,8 +28,18 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/kaustubhk24/inventory-docs',
-          label: 'GitHub',
+          href: 'https://app.oxybill.com/contact',
+          label: 'Support',
+          position: 'right',
+        },
+        {
+          href: 'https://app.oxybill.com/login',
+          label: 'Login',
+          position: 'right',
+        },
+        {
+          href: 'https://app.oxybill.com/signup',
+          label: 'Signup',
           position: 'right',
         },
       ],
@@ -37,47 +47,10 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Documentation',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/kaustubhk24/inventory-docs',
-            },
-          ],
-        },
+        
+       
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Oxybill, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Oxybill. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
@@ -106,6 +79,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')],
-
+  
 };

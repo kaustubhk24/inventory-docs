@@ -1,26 +1,24 @@
 {
-  "name": "inventory",
+  "name": "inventory-docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy": "gh-pages -d build",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.ff31de0ff",
-    "@docusaurus/preset-classic": "^2.0.0-beta.ff31de0ff",
+    "@docusaurus/core": "2.0.0-beta.3",
+    "@docusaurus/preset-classic": "2.0.0-beta.3",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
-    "classnames": "^2.3.1",
     "clsx": "^1.1.1",
-    "docusaurus-lunr-search": "^2.1.14",
     "file-loader": "^6.2.0",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
@@ -38,8 +36,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
