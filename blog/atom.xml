@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.oxybill.com/blog</id>
+    <title>Oxybill Blog</title>
+    <updated>2021-06-30T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.oxybill.com/blog"/>
+    <subtitle>Oxybill Blog</subtitle>
+    <icon>https://docs.oxybill.com/img/logo.svg</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>welcome</id>
+        <link href="https://docs.oxybill.com/blog/welcome"/>
+        <updated>2021-06-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Our app is coming soon]]></summary>
+    </entry>
+</feed>
