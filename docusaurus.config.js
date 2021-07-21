@@ -9,7 +9,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/icon.svg',
+  favicon: 'img/favicon.ico',
   organizationName: 'kaustubhk24', // Usually your GitHub org/user name.
   projectName: 'inventory-docs', // Usually your repo name.
   themeConfig: {
