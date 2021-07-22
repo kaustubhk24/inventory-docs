@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/status.svg').default,
     description: (
       <>
-        We provide 99.9% uptime, incase you're facing issue in connecting app, Please check <a target="_blank" href="#">Status Page.</a>
+        We provide 99.9% uptime, incase you're facing issue in connecting app, Please check <a target="_blank" href="https://status.oxybill.com/">Status Page.</a>
       </>
     ),
   },
